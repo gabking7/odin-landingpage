@@ -18,20 +18,48 @@ h1 {
   background-color: #1f2937;
 }
 
+.container2 {
+  display: flex;
+  gap: 12px;
+}
+
+.container2 img {
+  border: 2px solid #3882f6;
+  border-radius: 25px;
+}
+
+.body p {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 24px;
   color: #f9faf8;
+}
+
+.header_image {
+  height: 36px;
+  width: auto;
+  margin-top: 12px;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
 }
 
-.container1 {
+.link {
+  text-decoration: none;
+  color: #f9faf8;
+  font-size: 24px;
 }
 
 .body {
