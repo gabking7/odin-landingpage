@@ -8,9 +8,21 @@ h1 {
   color: #f9faf8;
 }
 
+.text {
+  display: flex;
+  padding: 50px;
+  margin: 20px;
+}
+
+.big_image {
+  width: 350px;
+  padding-left: 30px;
+}
+
 .text p {
   font-size: 18px;
   color: #e5e7eb;
+  margin-top: -20px;
 }
 
 .container1,
@@ -98,7 +110,7 @@ button,
 }
 
 .container3 h4 {
-  margin-left: 93px;
+  margin-left: 193px;
   margin-bottom: 0;
 }
 
